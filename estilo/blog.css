@@ -1,0 +1,135 @@
+
+main{
+    padding-top: 9vh;
+}
+.banner-blog {
+    background: url("../img/banner/b19.jpg") top no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+
+
+}
+
+
+
+.banner-blog h1 {
+    margin-bottom: 1rem;
+
+}
+
+.banner-blog h2 {
+font-weight: lighter;
+font-size: medium;
+}
+
+
+.banner-blog button {
+    width: max-content;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+
+
+.new{
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 2rem;
+    align-items: center;
+    padding:0px 5rem;
+}
+.new :nth-child(1){
+    position: relative;
+    z-index: -1;
+
+}
+.img-new{
+    width: 100%;
+    min-height: 300px;
+}
+#img-new-01{
+ 
+    background: url("../img/blog/b1.jpg") center no-repeat;
+    background-size: cover; 
+
+}
+#img-new-02{
+  
+    background: url("../img/blog/b2.jpg") center no-repeat;
+    background-size: cover; 
+
+}
+#img-new-03{
+  
+    background: url("../img/blog/b3.jpg") center no-repeat;
+    background-size: cover; 
+
+}
+#img-new-04{
+  
+    background: url("../img/blog/b4.jpg") center no-repeat;
+    background-size: cover; 
+
+}
+#img-new-05{
+  
+    background: url("../img/blog/b5.jpg") center no-repeat;
+    background-size: cover; 
+
+}
+#img-new-06{
+  
+    background: url("../img/blog/b6.jpg") center no-repeat;
+    background-size: cover; 
+
+}
+
+#img-new-07{
+  
+    background: url("../img/blog/b7.jpg") center no-repeat;
+    background-size: cover; 
+
+}
+.new-txt{
+    margin-top: 4rem;
+}
+
+.new-txt>:nth-child(n){
+    margin-bottom: 2rem;
+}
+
+.new-txt>:nth-child(3){
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    font-size: small;
+}
+
+
+.new-txt>:nth-child(3)::after{
+    content: "";
+    background-color: black;
+    width: 60%;
+    height: 3px;
+    bottom: 50%;
+    position: absolute;
+    right: -65%;
+}
+.data{
+    bottom: -2rem;
+    color: rgba(130, 130, 131, 0.932);
+}
+.data>h1{
+    position:absolute ;
+    font-size: 4rem;
+}

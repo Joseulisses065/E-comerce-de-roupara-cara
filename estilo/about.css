@@ -1,0 +1,98 @@
+main {
+    padding-top: 9vh;
+}
+
+.banner-about {
+    background: url("../img/about/banner.png") top no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner-about h1 {
+    margin-bottom: 1rem;
+
+}
+
+.banner-about h2 {
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.weare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.weare h1 {
+    font-size: 3rem;
+}
+
+.weare img {
+    width: 100%;
+}
+
+.weare div:nth-child(2) h1,
+p,
+div>p {
+    margin-bottom: 1rem;
+}
+
+.weare div:nth-child(2) a {
+    color: rgb(61, 61, 61);
+    border-bottom: 1px dashed rgb(61, 61, 61);
+}
+
+
+.anime-txt {
+    background-color: gainsboro;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0px;
+    height: calc(1rem + 2px);
+    margin-top: 1rem;
+}
+
+.anime-txt>p {
+    position: absolute;
+    width: max-content;
+    animation: letreiro 10s infinite;
+
+}
+.download-app  {
+text-align: center;
+}
+.download-app h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.download-app video {
+    border-radius: 20px;
+}
+
+
+.download-app h1 a {
+    color: var(--detalhe);
+    font-weight: bold;
+}
+
+@keyframes letreiro {
+    from {
+        left: 100%;
+
+    }
+
+    to {
+        left: -100%;
+
+    }
+
+}

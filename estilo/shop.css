@@ -1,0 +1,38 @@
+main{
+    padding-top: 9vh;
+}
+.banner-shop {
+    background: url("../img/banner/b1.jpg") center no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+
+
+}
+
+
+
+.banner-shop h1 {
+    margin-bottom: 1rem;
+
+}
+
+.banner-shop h2 {
+font-weight: lighter;
+font-size: medium;
+}
+
+
+.banner-shop button {
+    width: max-content;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    margin-top: 1rem;
+    font-weight: bold;
+}

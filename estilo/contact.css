@@ -1,0 +1,120 @@
+main {
+    padding-top: 9vh;
+}
+
+.banner-contact {
+    background: url("../img/about/banner.png") top no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner-contact h1 {
+    margin-bottom: 1rem;
+
+}
+
+.banner-contact h2 {
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.visit{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    list-style: none;
+    gap: 4rem;
+}
+.visit h1{
+    font-size: medium;
+    margin-bottom: 1rem;
+}
+.visit h2{
+    font-size: x-large;
+}
+.visit h3{
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+    margin: 1rem 0px;
+
+}
+
+.visit ul{
+    list-style: none;
+}
+.visit ul li{
+    margin-bottom: 1rem;
+}
+
+.contact-form{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 8fr 4fr;
+    padding:  3rem;
+    margin: 3rem 2rem;
+    border: 1px solid gray;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-form div{
+    padding: 2rem;
+   
+}
+.contact-form :nth-child(1) h1{
+    font-weight: lighter;
+    font-size: medium;
+    margin-bottom: 1.5rem;
+}
+.contact-form :nth-child(1) h2{
+   
+    margin-bottom: 1.5rem;
+}
+.contact-form div form{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contact-form div form input, textarea{
+    margin-bottom: 1rem;
+    border: 1px gray solid;
+    padding: 1rem;
+}
+.contact-form div form button{
+    width: min-content;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: var(--detalhe);
+    color: white;
+    font-weight: bold;
+
+}
+.people-contact{
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+}
+
+.people-contact li{
+    list-style: none;
+}
+
+.people-contact>li{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+.people-contact div{
+    padding: 0%;
+}
+.people-contact ul li{
+    margin-bottom: 0.5rem;
+}
+.people-contact ul .name{
+    font-weight: bold;
+}
